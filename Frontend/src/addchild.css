@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+21,9fd8ef+47,2ab0ed+82 */
+    background: #e4f5fc; /* Old browsers */
+    background: -moz-linear-gradient(
+      left,
+      #e4f5fc 0%,
+      #bfe8f9 21%,
+      #9fd8ef 47%,
+      #2ab0ed 82%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      left,
+      #e4f5fc 0%,
+      #bfe8f9 21%,
+      #9fd8ef 47%,
+      #2ab0ed 82%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to right,
+      #e4f5fc 0%,
+      #bfe8f9 21%,
+      #9fd8ef 47%,
+      #2ab0ed 82%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 */
+  
+    height: 100vh;
+  }
+  #child .container #child-row #child-column #child-box {
+    margin-top: 20px;
+    max-width: 700px;
+    height: 900px;
+    border: 3px solid #9c9c9c;
+    background-color: #eaeaea;
+  }
+  #child .container #child-row #child-column #child-box #child-form {
+    padding: 20px;
+  }
+  #child
+    .container
+    #child-row
+    #child-column
+    #child-box
+    #child-form
+    #child-link {
+    margin-top: -50 px;
+  }
+  
