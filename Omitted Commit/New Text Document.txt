@@ -1,0 +1,69 @@
+/*package com.sunbeam.pojos;
+
+import javax.persistence.*;
+
+
+@Entity
+@Table(name="verification_record")
+
+public class VerificationRecord  {
+	
+
+	@Column(name="verification_status", length=45)
+	private String verificationStatus;
+
+	//bi-directional one-to-one association to User
+	@OneToOne(mappedBy="verificationRecord")
+	private User user;
+
+	//bi-directional one-to-one association to DocumentMaster
+	@OneToOne(mappedBy="verificationRecord")
+	private DocumentMaster documentMaster;
+
+	public VerificationRecord() {
+	}
+
+	
+	public VerificationRecord(String verificationStatus, User user, DocumentMaster documentMaster) {
+		super();
+		this.verificationStatus = verificationStatus;
+		this.user = user;
+		this.documentMaster = documentMaster;
+	}
+
+
+
+
+	public String getVerificationStatus() {
+		return this.verificationStatus;
+	}
+
+	public void setVerificationStatus(String verificationStatus) {
+		this.verificationStatus = verificationStatus;
+	}
+
+	public User getUser() {
+		return this.user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public DocumentMaster getDocumentMaster() {
+		return this.documentMaster;
+	}
+
+	public void setDocumentMaster(DocumentMaster documentMaster) {
+		this.documentMaster = documentMaster;
+	}
+
+
+	@Override
+	public String toString() {
+		return "VerificationRecord [verificationStatus=" + verificationStatus + ", user=" + user + ", documentMaster="
+				+ documentMaster + "]";
+	}
+
+	
+}*/
